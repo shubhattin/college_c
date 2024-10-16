@@ -21,7 +21,7 @@ jobs:
           python-version: 3.12
       - name: run 'python karah.py'
         run: |
-          pip install pypoetry
+          pip install poetry
           poetry install
           poetry run python karah.py
       - name: Upload GitHub Pages artifact
