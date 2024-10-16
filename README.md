@@ -4,7 +4,7 @@ Tool for running java easily :- [`runcpp`](https://github.com/shubhattin/os-conf
 
 ## Assignment
 
-1. Simple Intereset
+1. Simple Interest
    [Here](./01/simple_interest.c)
 2. User Information Input
    [Here](./01/info_input.c)
