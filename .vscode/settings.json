@@ -1,0 +1,6 @@
+{
+  "liveServer.settings.root": "/build",
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-action.json": "file:///home/shubhattin/projects/sch/.github/workflows/deploy.yml"
+  }
+}

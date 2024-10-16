@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "college-c"
+version = "0.1.0"
+description = "College C programs"
+authors = ["Shubham Anand Gupta <81542648+shubhattin@users.noreply.github.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+rich = "^13.8.1"
+shubhlipi = "^0.0.0.181"
+markdown = "^3.7"
+jinja2 = "^3.1.4"
+pygments = "^2.18.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
