@@ -1,5 +1,6 @@
 *.class
 */a.java
+*/*.o
 /build
 a.java
 a.py
