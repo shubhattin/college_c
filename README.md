@@ -9,3 +9,6 @@ Tool for running C/C++ easily :- [`runcpp`](https://github.com/shubhattin/os-con
    [Here](./03/RowAdress.c)
 3. Writa a program to find the address of a given element in two dimensional array arranged in column major order.
    [Here](./03/ColumnAddress.c)
+4. Matrix Addition [Here](./03/AddMatrix.c)
+5. Matrix Multiplication [Here](./03/MulMatrix.c)
+6. Sparse Matrix [Here](./03/SparseMatrix.c)
