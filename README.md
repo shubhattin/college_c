@@ -1,6 +1,5 @@
-- [Assignment](#assignment)
 
-Tool for running java easily :- [`runcpp`](https://github.com/shubhattin/os-config/blob/main/packages/runcpp.py)
+Tool for running C/C++ easily :- [`runcpp`](https://github.com/shubhattin/os-config/blob/main/packages/runcpp.py)
 
 ## DSA Assignment
 
