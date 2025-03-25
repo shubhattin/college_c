@@ -21,8 +21,17 @@ void insert_head(Node **head, int data) {
   *head = new_node;
 }
 
-void print_lnk_list(Node **head) {
-  Node *next = *head;
+void insert_end(Node **head, int data) {
+  Node *new_node = create_node(data);
+  Node *ptr = *head;
+  while (ptr->next != NULL) {
+    ptr = ptr->next;
+  }
+  ptr->next = new_node;
+}
+
+void print_lnk_list(Node *head) {
+  Node *next = head;
   while (next != NULL) {
     printf("%d, ", next->data);
     next = next->next;
@@ -30,15 +39,17 @@ void print_lnk_list(Node **head) {
 }
 
 int main() {
-  Node *head = create_node(1);
-  insert_head(&head, 2);
-  insert_head(&head, 3);
-  insert_head(&head, 4);
-  insert_head(&head, 5);
-  insert_head(&head, 6);
+  Node *head = create_node(10);
+  insert_head(&head, 21);
+  insert_head(&head, 20);
+  insert_end(&head, 2);
+  insert_end(&head, 3);
+  insert_end(&head, 4);
+  insert_end(&head, 5);
+  insert_end(&head, 6);
 
   printf("Linked List Elements: \n");
-  print_lnk_list(&head);
+  print_lnk_list(head);
   printf("\n");
   return 0;
 }
