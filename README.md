@@ -1,7 +1,7 @@
 
 Tool for running C/C++ easily :- [`runcpp`](https://github.com/shubhattin/os-config/blob/main/packages/runcpp.py)
 
-## DSA Assignment
+## Arrays
 
 1. Writa a program to find the address of a given element in one dimensional array.
    [Here](./03/ArrayAdress.c)
@@ -12,3 +12,12 @@ Tool for running C/C++ easily :- [`runcpp`](https://github.com/shubhattin/os-con
 4. Matrix Addition [Here](./03/AddMatrix.c)
 5. Matrix Multiplication [Here](./03/MulMatrix.c)
 6. Sparse Matrix [Here](./03/SparseMatrix.c)
+
+## Linked List
+
+1. Write a program that uses functions to perform the following
+  - Create a singly linked list of integers
+  - Insert a given integer in the above linked list at beginning, middle and end.
+  - Delete a given integr in the above linked list at beginning, middle and end.
+  - Display the contents of the list after deletion.
+  [Here](./04/Link.c)
