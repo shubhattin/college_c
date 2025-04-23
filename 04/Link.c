@@ -14,6 +14,9 @@ Node *create_node(int data) {
 }
 
 void insert_head(Node **head, int data) {
+  // this function inserts a Node at the head of the Linked List
+  // as we are modiying the head itself, we also need to change the head
+  // reference pointer
   Node *new_node = create_node(data);
 
   new_node->data = data;
@@ -21,13 +24,35 @@ void insert_head(Node **head, int data) {
   *head = new_node;
 }
 
-void insert_end(Node **head, int data) {
+void insert_end(Node *head, int data) {
   Node *new_node = create_node(data);
-  Node *ptr = *head;
+  Node *ptr = head;
   while (ptr->next != NULL) {
     ptr = ptr->next;
   }
   ptr->next = new_node;
+}
+
+void insert_middle(Node *head, int data, int index) {
+  Node *new_node = create_node(data);
+  int i = 0;
+  Node *next = head;
+  while (next != NULL) {
+    if (i++ == index) {
+      new_node->next = next->next;
+      next->next = new_node;
+      return;
+      // ^ early return
+    }
+    next = next->next;
+  }
+  printf("\tIndex %d not found in Linked List\n", index);
+}
+
+void delete_head(Node *head) {
+  Node *new_head = head->next;
+  free(head);
+  head = new_head;
 }
 
 void print_lnk_list(Node *head) {
@@ -40,15 +65,19 @@ void print_lnk_list(Node *head) {
 
 int main() {
   Node *head = create_node(10);
+  // inserting elements
   insert_head(&head, 21);
   insert_head(&head, 20);
-  insert_end(&head, 2);
-  insert_end(&head, 3);
-  insert_end(&head, 4);
-  insert_end(&head, 5);
-  insert_end(&head, 6);
+  insert_end(head, 2);
+  insert_end(head, 3);
+  insert_end(head, 4);
+  insert_end(head, 5);
+  insert_end(head, 6);
+  insert_head(&head, 1);
+  insert_middle(head, 100, 3);
+  // This inserts the Node after Index 3 (after 4th element)
 
-  printf("Linked List Elements: \n");
+  printf("Linked List Elements After Deletion: \n");
   print_lnk_list(head);
   printf("\n");
   return 0;
