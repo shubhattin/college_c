@@ -35,6 +35,22 @@ void insert_end(Node *head, int data) {
   new_node->next = head;
 }
 
+void insert_middle(Node *head, int data, int index) {
+  Node *new_node = create_node(data);
+  int i = 0;
+  Node *next = head;
+  do {
+    if (i++ == index) {
+      new_node->next = next->next;
+      next->next = new_node;
+      return;
+      // ^ early return
+    }
+    next = next->next;
+  } while (next != head);
+  printf("\tIndex %d not found in Linked List\n", index);
+}
+
 void print_lnk_list(Node *head) {
   Node *next = head;
   do {
@@ -52,6 +68,8 @@ int main() {
   insert_head(&head, 1);
   insert_end(head, 2);
   insert_end(head, 3);
+  insert_middle(head, 5, 1);
+  insert_middle(head, 9, 6);
   printf("Linked List Elements After Insertion: \n");
   print_lnk_list(head);
   printf("\n");
