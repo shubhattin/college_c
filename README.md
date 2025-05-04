@@ -12,6 +12,7 @@ Tool for running C/C++ easily :- [`runcpp`](https://github.com/shubhattin/os-con
 4. Matrix Addition [Here](./03/AddMatrix.c)
 5. Matrix Multiplication [Here](./03/MulMatrix.c)
 6. Sparse Matrix [Here](./03/SparseMatrix.c)
+7. Reverse Array [Here](./03/RevArray.c)
 
 ## Linked List
 
