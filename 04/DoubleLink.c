@@ -40,6 +40,7 @@ void insert_middle(Node *head, int data, int index) {
   while (next != NULL) {
     if (i++ == index) {
       new_node->next = next->next;
+      (next->next)->prev = new_node;
       next->next = new_node;
       new_node->prev = next;
       return;
