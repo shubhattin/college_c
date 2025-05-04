@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  int A[3][3], B[3][3];
+  int A[3][3];
   int i, j;
   int zero, non_zero = 0;
 
@@ -26,18 +26,25 @@ int main() {
 
   if (zero > non_zero) {
     printf("Matrix is sparse: \n");
+    int B[3][non_zero];
+    // row, column, value
 
+    int x = 0;
     // storing the sparse matrix
     for (i = 0; i < 3; i++) {
       for (j = 0; j < 3; j++) {
-        B[i][j] = A[i][j];
+        if (A[i][j] != 0) {
+          B[0][x] = i;
+          B[1][x] = j;
+          B[2][x++] = A[i][j];
+        }
       }
     }
 
     // displaying the sparse matrix
-    printf("Sparse Matrix:\n");
+    printf("Compact Sparse Matrix Representation:\n");
     for (i = 0; i < 3; i++) {
-      for (j = 0; j < 3; j++) {
+      for (j = 0; j < non_zero; j++) {
         printf("%d\t", B[i][j]);
       }
       printf("\n");

@@ -17,8 +17,6 @@ void insert_head(Node **head, int data) {
   // as we are modiying the head itself, we also need to change the head
   // reference pointer
   Node *new_node = create_node(data);
-
-  new_node->data = data;
   new_node->next = *head;
   *head = new_node;
 }
