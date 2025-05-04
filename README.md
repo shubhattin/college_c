@@ -16,28 +16,28 @@ Tool for running C/C++ easily :- [`runcpp`](https://github.com/shubhattin/os-con
 ## Linked List
 
 1. Write a program that uses functions to perform the following
-  - Create a singly linked list of integers
-  - Insert a given integer in the above linked list at beginning, middle and end.
-  - Delete a given integr in the above linked list at beginning, middle and end.
-  - Display the contents of the list after deletion.
+   - Create a singly linked list of integers
+   - Insert a given integer in the above linked list at beginning, middle and end.
+   - Delete a given integr in the above linked list at beginning, middle and end.
+   - Display the contents of the list after deletion.
   [Here](./04/Link.c)
 2. Write a program that uses functions to perform the following
-  - Create a doubly linked list of integers
-  - Insert a given integer in the above linked list at beginning, middle and end.
-  - Delete a given integr in the above linked list at beginning, middle and end.
-  - Display the contents of the list after deletion.
-  [Here](./04/DoubleLink.c)
+   - Create a doubly linked list of integers
+   - Insert a given integer in the above linked list at beginning, middle and end.
+   - Delete a given integr in the above linked list at beginning, middle and end.
+   - Display the contents of the list after deletion.
+   [Here](./04/DoubleLink.c)
 3. Write a program that uses functions to perform the following
-  - Create a circular linked list of integers
-  - Insert a given integer in the above linked list at beginning, middle and end.
-  - Delete a given integr in the above linked list at beginning, middle and end.
-  - Display the contents of the list after deletion.
-  [Here](./04/CircularLink.c)
+   - Create a circular linked list of integers
+   - Insert a given integer in the above linked list at beginning, middle and end.
+   - Delete a given integr in the above linked list at beginning, middle and end.
+   - Display the contents of the list after deletion.
+   [Here](./04/CircularLink.c)
 4. Write a program that uses functions to perform the following
-  - Create a circular doubly linked list of integers
-  - Insert a given integer in the above linked list at beginning, middle and end.
-  - Delete a given integr in the above linked list at beginning, middle and end.
-  - Display the contents of the list after deletion.
-  [Here](./04/CircularDoubleLink.c)
+   - Create a circular doubly linked list of integers
+   - Insert a given integer in the above linked list at beginning, middle and end.
+   - Delete a given integr in the above linked list at beginning, middle and end.
+   - Display the contents of the list after deletion.
+   [Here](./04/CircularDoubleLink.c)
 5. Write structure declaration for storing terms of polynomial. Write a C function that accepts two polynomial of a single variable,
    does their addition and return the result polynomial. [Here]()
