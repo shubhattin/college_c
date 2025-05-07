@@ -41,5 +41,5 @@ Tool for running C/C++ easily :- [`runcpp`](https://github.com/shubhattin/os-con
    - Display the contents of the list after deletion.
    [Here](./04/CircularDoubleLink.c)
 5. Write structure declaration for storing terms of polynomial. Write a C function that accepts two polynomial of a single variable,
-   does their addition and return the result polynomial. [Here](./04/AdddPoly.c)
+   does their addition and return the result polynomial. [Here](./04/AddPoly.c)
 6. Add Two Linked Lists of numbers with thier corresponding elements. [Here](./04/AddLink.c)
