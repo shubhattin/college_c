@@ -47,3 +47,4 @@ Tool for running C/C++ easily :- [`runcpp`](https://github.com/shubhattin/os-con
 ## Stack
 
 1. Reversing string using stack. [Here](./05/RevStrStack.c)
+2. Binary COnversion using stack. [Here](./05/Binary.c)
