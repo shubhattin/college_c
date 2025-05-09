@@ -54,3 +54,4 @@ Tool for running C/C++ easily :- [`runcpp`](https://github.com/shubhattin/os-con
 1. HCF. [Here](./06/hcf.c)
 2. Fibonacci Series. [Here](./06/fib_series.c)
 3. nth Fibonacci Number [Here](./06/fibn.c)
+4. Tower of hanoi. [Here](./06/hanoi.c)
