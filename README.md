@@ -48,3 +48,9 @@ Tool for running C/C++ easily :- [`runcpp`](https://github.com/shubhattin/os-con
 
 1. Reversing string using stack. [Here](./05/RevStrStack.c)
 2. Binary COnversion using stack. [Here](./05/Binary.c)
+
+## Recursion
+
+1. HCF. [Here](./06/hcf.c)
+2. Fibonacci Series. [Here](./06/fib_series.c)
+3. nth Fibonacci Number [Here](./06/fibn.c)
