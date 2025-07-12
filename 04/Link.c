@@ -87,6 +87,18 @@ void print_lnk_list(Node *head) {
   }
 }
 
+void reverse_list(Node **node) {
+  Node *prev = NULL;
+  Node *next = NULL;
+  while (*node != NULL) {
+    next = (*node)->next;
+    (*node)->next = prev;
+    prev = *node;
+    *node = next;
+  }
+  *node = prev;
+}
+
 int main() {
   Node *head = create_node(10);
   // inserting elements
@@ -111,6 +123,10 @@ int main() {
   delete_middle(head, 2);
 
   printf("Linked List Elements After Deletion: \n");
+  print_lnk_list(head);
+  printf("\n");
+  printf("Linked List Reversed: \n");
+  reverse_list(&head);
   print_lnk_list(head);
   printf("\n");
   return 0;

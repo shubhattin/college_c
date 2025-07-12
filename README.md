@@ -59,4 +59,5 @@ Tool for running C/C++ easily :- [`runcpp`](https://github.com/shubhattin/os-con
 ## Tree
 
 1. DIfferent Traversal methods and checking if BST. [here](./07/tree.c)
+2. BST Search. [here](./07/bst_search.c)
 
