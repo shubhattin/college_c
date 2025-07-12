@@ -55,3 +55,8 @@ Tool for running C/C++ easily :- [`runcpp`](https://github.com/shubhattin/os-con
 2. Fibonacci Series. [Here](./06/fib_series.c)
 3. nth Fibonacci Number [Here](./06/fibn.c)
 4. Tower of hanoi. [Here](./06/hanoi.c)
+
+## Tree
+
+1. DIfferent Traversal methods and checking if BST. [here](./07/tree.c)
+
