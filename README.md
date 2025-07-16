@@ -48,7 +48,9 @@ Tool for running C/C++ easily :- [`runcpp`](https://github.com/shubhattin/os-con
 
 1. Reversing string using stack. [Here](./05/RevStrStack.c)
 2. Binary COnversion using stack. [Here](./05/Binary.c)
-
+3. Parenthesis Matching. [Here](.05/Paren.c)
+4. Infix to Postfix Expression Converter. [Here](./05/InfixPostfix.c)
+tet
 ## Recursion
 
 1. HCF. [Here](./06/hcf.c)
